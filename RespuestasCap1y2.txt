@@ -80,7 +80,8 @@ Capa de Internet:
 Equivalente a la Capa de Red del OSI, se encarga del enrutamiento de paquetes y la entrega de datos a través de redes. El protocolo IP es fundamental en esta capa.
 Capa de Enlace de Datos:
 Similar a la Capa de Enlace de Datos del OSI, se encarga de la transmisión de datos en la red local y proporciona direcciones físicas (MAC). Ejemplos incluyen Ethernet y Wi-Fi.
- 
+
+
 Modelo OSI:
 Capa 7: Aplicación:
 Proporciona servicios de aplicación directamente a los usuarios y aplicaciones finales. Aquí residen las aplicaciones de usuario final, como navegadores web, clientes de correo electrónico y aplicaciones de transferencia de archivos.
