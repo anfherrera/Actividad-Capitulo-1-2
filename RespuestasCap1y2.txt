@@ -1,0 +1,98 @@
+Preguntas de lectura: Capítulo 1
+1. Responda brevemente,
+¿Qué son los datos?
+Los datos son representaciones simbólicas de información. Pueden ser números, palabras, imágenes, sonidos o cualquier otra forma de registro que almacene información
+¿Qué es una red de datos?
+Las redes de datos cumplen una función importante en facilitar la comunicación dentro de la red humana global.
+¿Qué es una red convergente?
+Los avances de la tecnología nos permiten consolidar esas redes dispersas en una única plataforma: una plataforma definida como una red convergente. El flujo de voz, vídeo y datos que viajan a través de la misma red elimina la necesidad de crear y mantener redes separadas
+2. Describir las características de las arquitecturas de red:
+Tolerante a fallas:
+Las conexiones redundantes permiten usar rutas alternativas cuando falla un dispositivo o un enlace. La experiencia del usuario no se ve afectada.
+Ejemplo: Una red de centros de datos que utiliza la técnica de "clustering" para asegurar que, si un servidor falla, otros servidores asuman su carga sin interrupción en los servicios. También, en una red de telecomunicaciones, los enrutadores pueden usar protocolos de enrutamiento dinámico para encontrar rutas alternativas en caso de que una conexión principal falle.
+Escalabilidad
+Se pueden conectar a Internet redes enteras y usuarios adicionales sin degradar el rendimiento de los usuarios existentes
+Ejemplo: Una plataforma en la nube que puede aumentar automáticamente la capacidad de almacenamiento y procesamiento a medida que más usuarios se unen a la plataforma, sin afectar la velocidad de acceso a los datos y aplicaciones.
+Calidad del servicio
+La calidad de servicio, que administra el router, garantiza que las prioridades coincidan con el tipo de comunicación y su importancia para la organización.
+Los streaming media necesitaran prioridad para mantener la experiencia del usuario ininterrumpida y sin problemas.
+Generalmente, las páginas Web reciben menor prioridad.
+Ejemplo: En una red de telefonía VoIP, se puede configurar QoS para garantizar que las llamadas de voz tengan prioridad sobre otros tipos de tráfico, como la navegación web o la descarga de archivos, para evitar retrasos o interrupciones en las llamadas.
+Seguridad
+Los administradores pueden proteger la red con seguridad de hardware y software, y evitando el acceso físico a los dispositivos de red.
+Las medidas de seguridad protegen la red de accesos no autorizados.
+Ejemplo: Una red empresarial puede implementar cortafuegos, sistemas de detección de intrusiones y autenticación de dos factores para proteger sus activos y datos sensibles de accesos no autorizados.
+3. Investigar qué son las redes orientadas y no orientadas a la conexión.
+Redes Orientadas a la Conexión:
+En una red orientada a la conexión, antes de que los dispositivos comiencen a intercambiar datos, se establece una conexión lógica entre ellos. Esta conexión suele ser una ruta dedicada y reservada para la transmisión de datos. Para garantizar la entrega confiable de los datos, se realizan pasos de establecimiento, transferencia y terminación de la conexión. Los protocolos de red en estas redes tienden a ser más complejos debido a la necesidad de controlar el flujo, la secuencia y la corrección de errores.
+Redes No Orientadas a la Conexión:
+En una red no orientada a la conexión, los dispositivos pueden comenzar a enviar datos sin necesidad de establecer una conexión previa. Cada paquete de datos es independiente y se enruta de manera independiente a su destino. Estas redes suelen ser más simples en términos de protocolos, ya que no requieren el establecimiento y el mantenimiento de conexiones previas.
+ 
+4. Describa que es la calidad del servicio y responda:
+Se refiere a un conjunto de medidas y técnicas utilizadas para garantizar y mejorar el rendimiento, la confiabilidad y otros aspectos clave de la transmisión de datos y servicios en una red de comunicación. El objetivo principal de implementar QoS es asegurar que ciertas aplicaciones o flujos de datos reciban un nivel adecuado de recursos y prioridad en la red, según sus requisitos específicos, para evitar degradaciones del servicio o problemas de rendimiento.
+¿Por qué importa la calidad del servicio en una red de datos?
+Es fundamental por varias razones clave que afectan directamente a la experiencia de los usuarios y a la eficiencia operativa, la calidad del servicio es esencial para garantizar que los usuarios tengan una experiencia positiva al utilizar servicios y aplicaciones en la red. La implementación adecuada de QoS no solo mejora la satisfacción del usuario, sino que también aumenta la eficiencia operativa y garantiza el funcionamiento óptimo de aplicaciones críticas en diversos contextos.
+Preguntas de lectura: Capítulo 2
+1. Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para lograr comunicaciones exitosas.
+Primeramente, necesitamos un emisor y un receptor que a ellos los podemos considerar como dispositivos algunos de esos dispositivos pueden ser:
+Hosts "dispositivos finales": computadores, celulares, servidores
+Dispositivos de red: Firewall, router, switch, router inalámbrico
+luego se necesitará un medio de transmisión por el cual se van a enviar los datos, algunos ejemplos: Cable de cobre, fibra óptica, ondas de radio
+y por último los servicios y protocolos para lograr comunicación exitosa con unas reglas y normas que gobiernan como los dispositivos se comunican entre sí, ejemplo de algunos:
+TCP/IP, DNS, HTTP, DHCP
+ 
+2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
+Red: Una red es un conjunto de dispositivos interconectados que pueden comunicarse y compartir recursos. Puede ser pequeña o grande, y puede incluir dispositivos como computadoras, servidores, impresoras y dispositivos móviles. Las redes permiten la transferencia de datos y la comunicación entre dispositivos.
+LAN (Red de Área Local): Una red individual generalmente cubre una única área geográfica y proporciona servicios y aplicaciones a personas dentro de una estructura organizacional común, como una empresa, un campus o una región. Este tipo de red se denomina Red de área local (LAN). Una LAN por lo general está administrada por una organización única. El control administrativo que rige las políticas de seguridad y control de acceso está implementado en el nivel de red.
+WAN (Red de Área Amplia): Por lo general, las organizaciones individuales alquilan las conexiones a través de una red de proveedores de servicios de telecomunicaciones. Estas redes que conectan las LAN en ubicaciones separadas geográficamente se conocen como Redes de área amplia (WAN). Aunque la organización mantiene todas las políticas y la administración de las LAN en ambos extremos de la conexión, las políticas dentro de la red del proveedor del servicio de comunicaciones son controladas por el TSP. 
+Las WAN utilizan dispositivos de red diseñados específicamente para realizar las interconexiones entre las LAN. Dada la importancia de estos dispositivos para la red, la configuración, instalación y mantenimiento de éstos son aptitudes complementarias de la función de una red de la organización
+Internetwork (Interred o Red Interconectada): Una malla global de redes interconectadas (internetworks) cubre estas necesidades de comunicación humanas. Algunas de estas redes interconectadas pertenecen a grandes organizaciones públicas o privadas, como agencias gubernamentales o empresas industriales, y están reservadas para su uso exclusivo. La internetwork más conocida, ampliamente utilizada y a la que accede el público en general es Internet.  Internet se crea por la interconexión de redes que pertenecen a los Proveedores de servicios de Internet (ISP). Estas redes ISP se conectan entre sí para proporcionar acceso a millones de usuarios en todo el mundo. Garantizar la comunicación efectiva a través de esta infraestructura diversa requiere la aplicación de tecnologías y protocolos consistentes y reconocidos comúnmente, como también la cooperación de muchas agencias de administración de redes.
+Internet: Internet es un conjunto global de redes interconectadas que utilizan protocolos estándar para permitir la comunicación y el intercambio de información en todo el mundo. Es el ejemplo más grande de un internetwork y es accesible para millones de usuarios en todo el planeta. Internet permite acceder a sitios web, enviar correos electrónicos, compartir archivos y más.
+En resumen, una "red" es un conjunto de dispositivos interconectados, una "LAN" es una red local, una "WAN" es una red de mayor alcance, un "internetwork" es una red interconectada de redes y "Internet" es la red global que conecta todo el mundo. Cada término abarca diferentes escalas y niveles de conectividad.
+3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
+Internetwork se refiere a la idea general de interconectar redes para permitir la comunicación entre ellas, Internet se refiere específicamente a la red global y pública que conecta una gran cantidad de internetworks y permite la comunicación y el intercambio de información a nivel mundial.
+4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+La Tarjeta de Interfaz de Red (NIC) es el componente físico que permite la conexión entre un dispositivo y una red. El puerto físico es la conexión física en un dispositivo donde se conecta el cable de red. La Interfaz de Red es una abstracción lógica que representa la conexión entre un dispositivo y una red, incluyendo configuraciones y parámetros de comunicación. Estos conceptos trabajan juntos para habilitar la conectividad en una red de computadoras.
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
+Un protocolo se considera independiente de la tecnología cuando su diseño y funcionamiento se basan en principios y estándares generales que no están atados a una tecnología o medio de transmisión específico. En otras palabras, un protocolo se concibe de manera que pueda aplicarse y ser utilizado en una variedad de entornos y tecnologías, sin importar los detalles específicos de cómo se implementa físicamente.
+6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+La forma que adopta una sección de datos en cualquier capa se denomina Unidad de datos del protocolo (PDU). Durante la encapsulación, cada capa encapsula las PDU que recibe de la capa inferior de acuerdo con el protocolo que se utiliza. En cada etapa del proceso, una PDU tiene un nombre distinto para reflejar su nuevo aspecto. Aunque no existe una convención universal de nombres para las PDU.
+Es un paquete estructurado de información utilizado para la comunicación entre dispositivos en una red. Cada capa del modelo OSI maneja su propia PDU con información relevante para esa capa específica y para lograr una comunicación eficiente y confiable.
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+• Datos: el término general para las PDU que se utilizan en la capa de aplicación.
+• Segmento: PDU de la capa de transporte.
+• Paquete: PDU de la capa de Internetwork.
+• Trama: PDU de la capa de acceso a la red.
+• Bits: una PDU que se utiliza cuando se transmiten físicamente datos a través de un medio.
+ 
+ 
+8. Describir la diferencia entre los modelos de protocolo y modelos de
+referencia.
+La principal diferencia entre un modelo de protocolo y un modelo de referencia radica en su nivel de detalle y enfoque. Los modelos de protocolo son específicos y detallados, utilizados para diseñar protocolos concretos, mientras que los modelos de referencia son conceptuales y se centran en proporcionar una comprensión general de cómo funcionan las redes y las comunicaciones, independientemente de las implementaciones específicas. Ambos tipos de modelos son útiles en diferentes contextos, y a menudo se utilizan juntos para diseñar y comprender sistemas de comunicación complejos.
+ 
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+Modelo TCP/IP:
+Capa de Aplicación:
+Similar a la Capa de Aplicación del Modelo OSI, esta capa proporciona servicios de aplicación a los usuarios y aplicaciones finales. Incluye protocolos como HTTP, FTP, SMTP y DNS.
+Capa de Transporte:
+Realiza funciones de transporte de extremo a extremo, similar a la Capa de Transporte del OSI. TCP y UDP son los protocolos clave en esta capa.
+Capa de Internet:
+Equivalente a la Capa de Red del OSI, se encarga del enrutamiento de paquetes y la entrega de datos a través de redes. El protocolo IP es fundamental en esta capa.
+Capa de Enlace de Datos:
+Similar a la Capa de Enlace de Datos del OSI, se encarga de la transmisión de datos en la red local y proporciona direcciones físicas (MAC). Ejemplos incluyen Ethernet y Wi-Fi.
+ 
+Modelo OSI:
+Capa 7: Aplicación:
+Proporciona servicios de aplicación directamente a los usuarios y aplicaciones finales. Aquí residen las aplicaciones de usuario final, como navegadores web, clientes de correo electrónico y aplicaciones de transferencia de archivos.
+Capa 6: Presentación:
+Se encarga de la representación y traducción de datos, asegurando que la información sea coherente entre diferentes sistemas. Esto incluye la compresión y el cifrado de datos.
+Capa 5: Sesión:
+Controla la comunicación y la administración de sesiones entre dos dispositivos. Esta capa establece, administra y finaliza las sesiones de comunicación.
+Capa 4: Transporte:
+Proporciona servicios de transporte de extremo a extremo. Asegura la entrega de datos de manera confiable y controla la detección y recuperación de errores. Ejemplos de protocolos de esta capa son TCP (Control de Transmisión) y UDP (Protocolo de Datagrama de Usuario).
+Capa 3: Red:
+Maneja el enrutamiento y la conmutación de datos a través de la red. Decide cómo se envían los datos desde el origen al destino. Los routers operan en esta capa. El protocolo IP (Protocolo de Internet) es un ejemplo de un protocolo de la Capa 3.
+Capa 2: Enlace de Datos:
+Proporciona la comunicación de datos confiable entre dos nodos en la misma red física. Aquí se encuentran los switches y las tarjetas de red. Protocolos como Ethernet operan en esta capa.
+Capa 1: Física:
+Trata con la transmisión física de datos a través de un medio de comunicación, como cables y señales eléctricas. Define las características eléctricas, mecánicas y funcionales de los dispositivos de red y los medios de transmisión.
